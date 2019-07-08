@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #313131;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    position: relative;
+    margin-top: 20%;
+}
+
+textarea {
+    background: #414141;
+    outline: none;
+}
+
+.encrypt-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
