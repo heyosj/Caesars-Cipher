@@ -50,3 +50,9 @@ textarea:focus {
     border: none;
     color: #aaa;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    background: #414141;
+}
