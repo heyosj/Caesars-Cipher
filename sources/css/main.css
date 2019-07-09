@@ -5,6 +5,18 @@
 
 body {
     background: #313131;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron {
+    background: #313131;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+hr {
+    border-color: #414141;
 }
 
 .container {
@@ -14,16 +26,27 @@ body {
 
 .row {
     position: relative;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 textarea {
     background: #414141;
+    border: none;
+    border-radius: 2%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea:focus {
     outline: none;
 }
 
-.encrypt-btn {
-    display: flex;
-    justify-content: center;
+.longInput {
+    color: #39ff14;
+}
+
+.btn {
     margin-top: 3%;
+    border: none;
+    color: #aaa;
 }
