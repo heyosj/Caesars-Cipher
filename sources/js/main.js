@@ -28,10 +28,9 @@ function caesarCipher(str) {
     console.log(solved.toLowerCase());
 };
 
-function clearButton() {
-    inputField.value = '';
-    outputField.value = '';
-
-};
+// function clearButton() {
+//     inputField.value = '';
+//     outputField.value = '';
+// };
 
 // Lower case letter still need to be accepted
